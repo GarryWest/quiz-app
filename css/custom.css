@@ -9,19 +9,14 @@ h1, h4 {
 	border: #476B6B solid 1px;
 }
 
-.jumbotron, .btn-default, h1, h3, h4{
+.jumbotron, h1, h3, h4{
 	background-color: #A5C0CF;
 }
 
-.btn-default {
-	margin-right: 10px;
+.jumbotron, h1, h3, h4, .btn-default, .list-group {
+	border: #476B6B solid 5px;
 }
 
 .jumbotron {
 	margin-bottom: 0px;
 }
-
-.question {
-	padding-bottom: 10px;
-}
-
