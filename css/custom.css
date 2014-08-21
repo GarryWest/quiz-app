@@ -1,3 +1,26 @@
 body {
-	padding-top: 30px;
+	background-color: #669999;
+	font-family: calibri, "Helvetica Neue", Helvetica, Arial, sans-serif
 }
+
+h1, h4 {
+	border-radius: 5px;
+	border: #476B6B solid 1px;
+}
+
+.jumbotron, .btn-default, h1, h4{
+	background-color: #A5C0CF;
+}
+
+.btn-default {
+	margin-right: 10px;
+}
+
+.jumbotron {
+	margin-bottom: 0px;
+}
+
+.question {
+	padding-bottom: 10px;
+}
+

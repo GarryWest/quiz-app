@@ -10,24 +10,32 @@
     <script src="js/respond.js"></script></head>
 <body>
 	<div class="container">
-		<div class="entry-header">
-			<h4>Bird Quiz by Garry West</h4>
-			<div class="jumbotron">
-				<img src="images/main.gif" class="img-responsive">
-				<p>Welcome to the Bird Quiz!  Click Begin to play!</p>
-			</div>
-			<div class="instructions">
-				<p><strong>Question 1/10: Which bird below is not native to Europe?  </strong><button class="resetbutton btn"> Submit Answer</button></p>
+		<div class="row">
+			<h1>Bird Quiz by Garry West</h1>
+		</div>
+		<div class="jumbotron">
+			<div class="row">
+				<div class="col-md-3 col-xs-12">
+					<img height="100" width="200" src="images/ostrich.gif" class="img-rounded img-responsive">
+				</div>
+				<div class="col-md-6 col-xs-12">
+					<h2>Correct! A flightless bird, the ostrich can run rapidly with its wings outstretched.</h2>
+				</div>
 			</div>
 		</div>
-		<div class="entry-lines">
-			<ul class="item-list">
-				<li class="list-item"><input type="checkbox">A. Ostrich</li>
-				<li class="list-item"><input type="checkbox">B. Starling</li>
-				<li class="list-item"><input type="checkbox">C. Sparrow</li>
-				<li class="list-item"><input type="checkbox">D. Snipe</li>
+		<div class="row">
+			<h3><button class="btn btn-default "> Next Question </button>Question 1/10: Which bird below is not native to Europe?</h3>
+		</div>
+
+		<div class="row">
+			<ul class="list-group">
+				<li class="list-group-item list-group-item-success"><input type="checkbox"> Ostrich - Correct</li>
+				<li class="list-group-item list-group-item-danger"><input type="checkbox"> Starling - Incorrect</li>
+				<li class="list-group-item list-group-item-danger"><input type="checkbox"> Sparrow - Incorrect</li>
+				<li class="list-group-item list-group-item-danger"><input type="checkbox"> Snipe - Incorrect</li>
 			</ul>
 		</div>
+		
 	</div> <!-- end of container -->
 	<!-- JavaScript -->
 	<script src="http://code.jquery.com/jquery.min.js"></script>
