@@ -1,5 +1,6 @@
 body {
 	background-color: #669999;
+	background-image: url("../images/dove.png");
 	font-family: calibri, "Helvetica Neue", Helvetica, Arial, sans-serif
 }
 
@@ -8,7 +9,7 @@ h1, h4 {
 	border: #476B6B solid 1px;
 }
 
-.jumbotron, .btn-default, h1, h4{
+.jumbotron, .btn-default, h1, h3, h4{
 	background-color: #A5C0CF;
 }
 
