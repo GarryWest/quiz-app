@@ -174,7 +174,7 @@ $(document).ready(function(){
 	answerArray[c] = new Answer(" Quail",false,"","");
 	answerArray[d] = new Answer(" Partridge",false,"","");
 
-	var question = new Question("After the turkey, which of these is the second larget game bird in the U.S.?",answerArray);
+	var question = new Question("After the turkey, which of these is the second largest game bird in the U.S.?",answerArray);
 	quiz.addQuestion(question);
 
 	var answerArray = [];
@@ -199,7 +199,7 @@ $(document).ready(function(){
 
 	var answerArray = [];
 	randomize(a,b,c,d);
-	answerArray[a] = new Answer(' Peregrine Falcon',true,'images/peregrine-falcon.gif','The peregrine is renowned for its speed, reaching over 322 km/h (200 mph) during its characteristic hunting stoop (high speed dive),[6] making it the fastest member of the animal kingdom');
+	answerArray[a] = new Answer(' Peregrine Falcon',true,'images/peregrine-falcon.gif','The peregrine is renowned for its speed, reaching over 322 km/h (200 mph) during its characteristic hunting stoop (high speed dive), making it the fastest member of the animal kingdom');
 	answerArray[b] = new Answer(" Red-tailed Falcon",false,"","");
 	answerArray[c] = new Answer(" Nuthatch",false,"","");
 	answerArray[d] = new Answer(" Indigo Bunting",false,"","");
